@@ -1,0 +1,295 @@
+* {
+    margin: 0px; /*centra todo*/
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap; /* CAMBIAR EN LA VERSION PC*/
+    background-color: #CEE5D0;
+}
+
+/*Aca comienza la version movil---------------*/
+
+/*---------------------datos de pago---------*/
+.datosPago
+{
+width: 100%;
+padding: 15px;
+}
+
+.contenedor-datosPago
+{
+ 
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #F3F0D7;
+}
+
+.contenedor-form-general
+{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.butonxd
+{
+    background-color: lightgreen;
+    width: 53%;
+    padding: 7px;
+}
+
+.realizarPedido
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.enviarPedido
+{
+    padding: 12px;
+    background-color: lightblue;
+    border-radius: 12px;
+}
+
+.formulario
+{
+
+}
+
+form{
+ 
+}
+.form-container
+{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*------------------RESUMEN DE PAGO (MOVIL)-------*/
+.resumen
+{
+    order: -1;
+}
+article
+{
+    display: flex;
+}
+
+article .main-article
+{
+display: block;
+width: 100%;
+}
+
+div.nomPrecio
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+article .product_img
+{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+h3.nombreProd
+{
+    margin-right: 3px;
+}
+
+/* por las dudas primera version grande
+.resumen
+{
+width: 50%;
+padding: 30px;
+}
+*/
+.resumen{
+    display: flex;
+    width: 100%;
+    padding: 9px;
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-top-resumen, .section-middle-resumen, .section-bottom-resumen
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor-resumen
+{
+    background-color: #F3F0D7;
+    border: 2px dotted rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: 11px; /*new*/
+    width: 100%;
+}
+ .tituloh3
+ {
+     text-align: center;
+ }
+
+ /*--------------------------------------------------*/
+
+@media (min-width: 348px)
+{
+    .contenedor-form-general
+    {
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .form-container
+    {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px){
+
+/*---------pedido de datos-------*/
+main
+{
+    display: flex;
+    flex-wrap: nowrap; /* CAMBIAR EN LA VERSION PC*/
+    background-color: #CEE5D0;
+}
+.datosPago
+{
+width: 65%;
+padding: 15px;
+}
+
+.contenedor-datosPago
+{
+    border: 1px solid #000;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #F3F0D7;
+}
+
+.contenedor-form-general
+{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-container
+{
+    display: block;
+}
+
+.butonxd
+{
+    background-color: lightgreen;
+    width: 53%;
+    padding: 7px;
+}
+
+.realizarPedido
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.enviarPedido
+{
+    padding: 12px;
+    background-color: lightblue;
+    border-radius: 12px;
+}
+
+.formulario
+{
+
+}
+
+form{
+
+}
+
+/*----------------------La parte de la izquierda, resumen de pedido----------------*/
+.resumen
+{
+    order: 0;
+}
+
+article
+{
+    display: flex;
+}
+
+article .main-article
+{
+display: block;
+width: 100%;
+}
+
+div.nomPrecio
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+article .product_img
+{
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+
+h3.nombreProd
+{
+    margin-right: 3px;
+}
+
+/* por las dudas primera version grande
+.resumen
+{
+width: 50%;
+padding: 30px;
+}
+*/
+.resumen{
+    display: flex;
+    width: 35%;
+    padding: 30px;
+    justify-content: flex-end;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-top-resumen, .section-middle-resumen, .section-bottom-resumen
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor-resumen
+{
+    background-color: #F3F0D7;
+    border: 2px dotted rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: 11px; /*new*/
+    width: 84%;
+}
+}

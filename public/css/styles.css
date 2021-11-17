@@ -1,0 +1,133 @@
+* {
+    margin: 0px; /*centra todo*/
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #CEE5D0;
+}
+
+
+/*----------------------HEADER :"v----------------------*/
+
+/*logo - busqueda - iconos*/
+div.top-header
+{
+    background-color: #FF7070;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo
+{
+    display: flex;
+    width: 15%;
+}
+.imagen-logo
+{
+    width: 40%;
+    
+}
+
+.imagen-logo, .form-busqueda, .cart, .login, .darkmode
+{
+    align-self: center;
+}
+
+/*barra de navegacion*/
+div.button-header
+{
+    border-top: 1px solid #000;
+    background-color: #FF7070
+}
+
+div.button-header nav ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 5px;
+}
+.button-header ul li{
+    list-style-type: none;
+}
+
+.button-header ul li a{
+    text-decoration: none;
+    color: #ffff;;
+}
+
+/*carruse*/
+.carrusel-caja
+{
+    display: flex;
+    width: 100%;
+}
+
+.carrusel-caja img
+{
+    width:100%;
+}
+
+/*----------------------MAIN :"v----------------------*/
+main section article img
+{
+    width: 25%;
+}
+
+main
+{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filtrado ul li
+{
+    list-style-type: disc;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.filtrado
+{
+    
+    padding: 20px;
+}
+
+.filtrado-contenedor
+{
+    width: 25%;
+}
+
+.filtrado p
+{
+   
+    margin-bottom: 14px;
+}
+
+.productosxD
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 73%;
+    margin-left: 12px;
+}
+.destacados
+{
+    display: flex;
+}
+.ofertas
+{
+    display: flex;
+}
+
+
+
+
+
