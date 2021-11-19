@@ -1,16 +1,14 @@
 {
-  "name": "carritoLimberth",
+  "name": "html_css",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {
-    "nodemon": "^2.0.15"
-  },
-  "devDependencies": {},
   "scripts": {
     "start": "node app.js"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
