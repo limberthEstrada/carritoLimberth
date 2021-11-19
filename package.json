@@ -1,15 +1,24 @@
 {
-  "name": "carritolimberth",
+  "name": "carritoLimberth",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limberthEstrada/carritoLimberth.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/limberthEstrada/carritoLimberth/issues"
+  },
+  "homepage": "https://github.com/limberthEstrada/carritoLimberth#readme"
 }
