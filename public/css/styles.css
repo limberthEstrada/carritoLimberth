@@ -47,7 +47,7 @@ div.button-header nav ul
 {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
 }
 .button-header ul li{
@@ -69,6 +69,18 @@ div.button-header nav ul
 .carrusel-caja img
 {
     width:100%;
+}
+
+.iconosHeader {
+    display: flex;
+    align-items: center;
+    width: 22%;
+    justify-content: space-around;
+}
+
+.iconH i {
+    color: #000;
+    font-size: 31px;
 }
 
 /*----------------------MAIN :"v----------------------*/
@@ -129,5 +141,60 @@ ul li a{
 
 
 
+/*-----------FOOTER */
 
+.mediospago {
+    /* display: flex; */
+    width: 33%;
+    font-size: 30px;
+}
+.imagen-foot {
+    width: 22%;
+}
 
+.footer-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: #FF7070;
+}
+
+.imglogos {
+    width: 100%;
+}
+
+.mediospago h4
+{
+    margin: 0;
+}
+
+.seguinos {
+    font-size: 30px;
+    
+    width: 33%;
+}
+
+.suscribe {
+    font-size: 30px;
+    width: 33%;
+}
+
+#face
+{
+color: blue;
+}
+
+#twitter
+{
+color:rgb(72, 182, 255);
+}
+#insta
+{
+color: rgb(216, 82, 240);
+}
+
+.enemy {
+    padding: 6px;
+}

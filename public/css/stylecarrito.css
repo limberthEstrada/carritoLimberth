@@ -162,6 +162,81 @@ padding: 30px;
 }
 
 @media (min-width: 768px){
+/*----------------------HEADER :"v----------------------*/
+
+/*logo - busqueda - iconos*/
+div.top-header
+{
+    background-color: #FF7070;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo
+{
+    display: flex;
+    width: 15%;
+}
+.imagen-logo
+{
+    width: 40%;
+    
+}
+
+.imagen-logo, .form-busqueda, .cart, .login, .darkmode
+{
+    align-self: center;
+}
+
+/*barra de navegacion*/
+div.button-header
+{
+    border-top: 1px solid #000;
+    background-color: #FF7070
+}
+
+div.button-header nav ul
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px;
+}
+.button-header ul li{
+    list-style-type: none;
+}
+
+.button-header ul li a{
+    text-decoration: none;
+    color: #ffff;;
+}
+
+/*carruse*/
+.carrusel-caja
+{
+    display: flex;
+    width: 100%;
+}
+
+.carrusel-caja img
+{
+    width:100%;
+}
+
+.iconosHeader {
+    display: flex;
+    align-items: center;
+    width: 22%;
+    justify-content: space-around;
+}
+
+.iconH i {
+    color: #000;
+    font-size: 31px;
+}
+
+
+
 
 /*---------pedido de datos-------*/
 main
@@ -292,4 +367,68 @@ padding: 30px;
     padding: 11px; /*new*/
     width: 84%;
 }
+
+
+/*-----------FOOTER */
+
+.mediospago {
+    /* display: flex; */
+    width: 33%;
+    font-size: 30px;
+}
+.imagen-foot {
+    width: 22%;
+}
+
+.footer-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    
+    background-color: #FF7070;
+}
+
+.imglogos {
+    width: 100%;
+}
+
+.mediospago h4
+{
+    margin: 0;
+}
+
+.seguinos {
+    font-size: 30px;
+    
+    width: 33%;
+}
+
+.suscribe {
+    font-size: 30px;
+    width: 33%;
+}
+
+#face
+{
+color: blue;
+}
+
+#twitter
+{
+color:rgb(72, 182, 255);
+}
+#insta
+{
+color: rgb(216, 82, 240);
+}
+
+.enemy {
+    padding: 6px;
+}
+
+footer{
+    background-color: #FF7070;
+}
+
 }
